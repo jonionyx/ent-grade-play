@@ -12,7 +12,7 @@ The framework is designed with focus on:
 
 The framework intentionally avoids Gherkin/Cucumber and instead relies on descriptive test cases, Page Object Model (POM), Facade pattern, and explicit workflows.
 
-## 1. Key Design Principles
+## 2. Key Design Principles
 
 - Non-BDD by design: No feature files or step definitions
 
@@ -30,14 +30,14 @@ The framework intentionally avoids Gherkin/Cucumber and instead relies on descri
 
 - Custom data attributes for locators (data-testid)
 
-## 1. Prerequisites
+## 3. Prerequisites
 Ensure the following are installed on your machine
  
 ### System Requirements
 - Node.js v18+
 - npm v9+ (or yarn if preferred)
 - Git
-- Jave (required for Allure reports)
+- Java (required for Allure reports)
 
 Verify installation
  ```
@@ -46,7 +46,7 @@ npm --version
 java -version
  ```
 
- ## 1. Tech Stack
+ ## 4. Tech Stack
  - Language: TypeScript
  - Test Runner: Playwright Test
  - Design Patterns:
@@ -57,7 +57,7 @@ java -version
  - IDE: Visual Studio recommended
 
 
-## 1. Cloning the Repository
+## 5. Cloning the Repository
 
 ### Clone Repo:
 ```
@@ -76,12 +76,12 @@ npx playwright install
 
 ```
 
-## 1. Running Tests
+## 6. Running Tests
 
 
 
 
-## 1. Reporting (Allure)
+## 7. Reporting (Allure)
 
 
 ## 1. What this Framework Is Not
@@ -89,14 +89,14 @@ npx playwright install
 - Not business-authored documentation
 - Not Cypress-style implicit execution
 
-## 1. Support & Contribution
+## 8.. Support & Contribution
 
 - Follow existing patterns strictly
 - Discuss architectural changes before implementation
 - Keep test readability a priority
 
 
-## 1. Final Note
+## 9. Final Note
 This framework prioritise clarity, speed an dlong term maintaninability. It is designed for SDETs who own their automation and value signal over ceremony.
 
 For question or improvement, raise a PR or start design discussion. 
